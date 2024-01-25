@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Paleblue);
+    color: var(--Darkblue);
+    stroke: black;
+    font-family: "Red hat display",sans-serif;
+    font-size: 10px;
+}
+
+.card{
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+} 
+
+.title{
+    color: var(--Darkblue);
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 70px;
+}
+
+
+.child{
+    color: var(--Desaturatedblue);
+    padding: 0px 70px 20px 70px;
+    line-height: 20px;
+}
